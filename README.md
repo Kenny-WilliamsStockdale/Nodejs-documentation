@@ -108,7 +108,10 @@
   //World
   //!!! 
 ```
-### `process.uptime()`: Time of how long this process is running
+### `process.uptime()`: Time of how long this process is running. Measured in seconds. Use Math.floor() to get whole seconds.
+``` JavaScript
+
+```
 ### `process.memoryUsage()`: Resident set size, total heap and used heap memory usage
 ### `process.exit()`: Terminating this process
 ### `process.kill()`: Termination of another process
